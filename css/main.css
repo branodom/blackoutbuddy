@@ -6,20 +6,48 @@ COLOR PALETTE:
 #011632 - Oxford blue
 #433958 - English violet
 */
-
+@font-face {
+    font-family: Goldman;
+    src: url(../assets/fonts/Goldman-Regular.ttf);
+}
+@font-face {
+    font-family: JosefinSans;
+    src: url(../assets/fonts/JosefinSans-VariableFont_wght.ttf);
+}
 body {
     margin: 0 auto;
     width: 70%;
     background-color: #201F21;
     color: whitesmoke;
+    font-family: JosefinSans;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 header {
     text-align: center;
 }
+h1 {
+    font-size: 70pt;
+    margin: 30px auto;
+}
+h1, h2, h3 {
+    font-family: Goldman;
+}
 form label {
     display: block;
+    padding-bottom: 15px;
     text-align: center;
-    padding: 20px;
+    font-size: 18pt;
 }
 form input {
     display: block;
@@ -27,10 +55,25 @@ form input {
     width: 300px;
     height: 30px;
 }
+form input {
+    font-family: JosefinSans;
+    font-size: larger;
+    text-align: center;
+}
+form .question {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #312b3b;
+    border-radius: 20px;
+    width: 450px;
+    
+}
 form #submit {
+    display: block;
     margin: 30px auto;
     width: 100px;
+    height: 30px;
 }
 footer {
-    margin-top: 60px;
+    margin: 0 auto;
 }
