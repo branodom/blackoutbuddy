@@ -1,0 +1,36 @@
+/*
+COLOR PALETTE:
+#201F21 - Raisin black
+#002E63 - Berkeley blue
+#42424C - Onyx
+#011632 - Oxford blue
+#433958 - English violet
+*/
+
+body {
+    margin: 0 auto;
+    width: 70%;
+    background-color: #201F21;
+    color: whitesmoke;
+}
+header {
+    text-align: center;
+}
+form label {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+form input {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 30px;
+}
+form #submit {
+    margin: 30px auto;
+    width: 100px;
+}
+footer {
+    margin-top: 60px;
+}
