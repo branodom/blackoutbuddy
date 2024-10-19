@@ -1,5 +1,5 @@
 # Blackout Buddy
-by: Bran Odom, Donna Soto, Valery Rodriguez, Edris Vega
+*by: Bran Odom, Donna Soto, Valery Rodriguez, Edris Vega*
 
 ## Mission
 Blackout Buddy is a mobile-friendly website that aims to prepare users against hurricane-related disasters. With a goal of protection and risk mitigation, we strive to include all the necessary tools and tips for staying prepared in the wake of disaster.
