@@ -41,6 +41,9 @@ h2 {
     font-weight: normal;
     text-align: center;
 }
+h3 {
+    font-size: 18pt;
+}
 ul {
     margin: 0px;
     padding: 0px;
@@ -82,6 +85,28 @@ main, footer {
     100% {
         opacity: 1;
     }
+}
+.content-wrap {
+    margin: 0 auto;
+    width: 500px;
+}
+.tips {
+    margin: 30px auto;
+    padding: 20px 20px;
+    background-color: #312b3b;
+    border-radius: 20px;
+    max-width: 450px;
+    width: 100%;
+}
+.tips ul {
+    padding: 0 30px
+}
+.tips p {
+    line-height: 1.5em;
+}
+.tips img {
+    height: 100%;
+    width: 100%;
 }
 footer {
     margin-top: 50px;
