@@ -40,6 +40,13 @@ h1 {
     font-size: 65pt;
     margin: 0px auto;
 }
+h1 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+h1 a:hover {
+    opacity: 0.7;
+}
 h1, h2, h3 {
     font-family: Goldman;
 }
