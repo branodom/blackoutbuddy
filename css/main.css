@@ -60,6 +60,8 @@ nav {
 }
 nav li {
     display: inline-block;
+    font-family: Goldman;
+    font-weight: 200;
 }
 #active {
     color: whitesmoke;
