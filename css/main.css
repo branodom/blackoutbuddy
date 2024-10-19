@@ -44,7 +44,6 @@ h2 {
 ul {
     margin: 0px;
     padding: 0px;
-    box-sizing: content-box;
 }
 nav {
     padding: 30px 0;
@@ -85,7 +84,33 @@ main, footer {
     }
 }
 footer {
-    margin: 0 auto;
+    margin-top: 50px;
     font-size: small;
     font-weight: 300;
+}
+@media screen and (max-width: 745px) {
+    h1 {
+        font-size: 40pt;
+    }
+    nav {
+        padding: 0;
+    }
+    nav li {
+        display: block;
+        padding: 5px 30px;
+    }
+    nav li a {
+        display: block;
+    }
+    main {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 475px) {
+    h1 {
+        font-size: 28pt;
+    }
+    h2 {
+        font-size: 20pt;
+    }
 }
