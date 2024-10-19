@@ -38,6 +38,7 @@ form .button {
     border-radius: 20px;
     font-family: Goldman;
     font-size: 28px;
+    font-weight: bold;
     cursor: pointer;
 }
 form .button:hover {
