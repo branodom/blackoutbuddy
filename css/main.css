@@ -129,12 +129,9 @@ footer {
     }
     nav li {
         display: block;
-        margin: 0 auto;
-        padding: 5px 30px;
-        width: 50%;
     }
     nav li a {
-        margin: 0 auto;
+        margin: 10px auto;
         display: block;
         max-width: 300px;
         width: 100%;
