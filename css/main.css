@@ -98,6 +98,9 @@ main, footer {
     max-width: 450px;
     width: 100%;
 }
+.tips h3 {
+    padding-left: 10px;
+}
 .tips ul {
     padding: 0 30px
 }
