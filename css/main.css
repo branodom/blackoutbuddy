@@ -139,8 +139,15 @@ footer {
         max-width: 300px;
         width: 100%;
     }
+    .content-wrap {
+        width: 100%;
+    }
     main {
         width: 100%;
+    }
+    .tips {
+        margin: 10px;
+        width: 80vw;
     }
     footer {
         text-align: center;
