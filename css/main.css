@@ -45,54 +45,40 @@ h1 a {
     color: whitesmoke;
 }
 h1 a:hover {
-    opacity: 0.7;
+    opacity: 0.7; 
 }
 h1, h2, h3 {
     font-family: Goldman;
 }
-form label {
-    display: block;
-    padding-bottom: 15px;
-    text-align: center;
-    font-size: 15pt;
-}
-form input {
-    display: block;
-    margin: 0 auto;
-    width: 300px;
-    height: 40px;
-    color: whitesmoke;
-    background-color: #201F21;
-    border: none;
-    border-radius: 20px;
-    font-family: JosefinSans;
-    font-size: 20pt;
+h2 {
+    font-size: 24pt;
     text-align: center;
 }
-form .question {
-    margin: 30px auto;
-    padding: 20px;
-    background-color: #312b3b;
-    border-radius: 20px;
-    width: 450px;
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    padding: 30px;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
     
 }
-form .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px auto;
-    width: 150px;
-    height: 50px;
-    background: #3e276f;
+
+#active {
     color: whitesmoke;
-    border: none;
-    border-radius: 20px;
-    font-family: Goldman;
-    font-size: 28px;
-    cursor: pointer;
+    background-color: #57389b;
 }
-form .button:hover {
+nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #3e276f;
+}
+nav li a:hover {
     background-color: #57389b;
 }
 footer {
