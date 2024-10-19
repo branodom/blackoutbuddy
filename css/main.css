@@ -55,7 +55,7 @@ ul {
     padding: 0px;
 }
 nav {
-    padding: 30px 0;
+    padding: 10px 0;
     text-align: center;
 }
 nav li {
@@ -66,8 +66,10 @@ nav li {
     background-color: #57389b;
 }
 nav li a {
+    display: inline-block;
     padding: 10px;
-    width: 500px;
+    width: 150px;
+    border-radius: 20px;
     color: whitesmoke;
     text-decoration: none;
     text-align: center;
