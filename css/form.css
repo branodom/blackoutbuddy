@@ -44,6 +44,16 @@ form .button {
 form .button:hover {
     background-color: #57389b;
 }
+/*the css for the results page*/
+.results-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px; 
+    margin-top: 20px;
+    background: #3e276f;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
 @media screen and (max-width: 745px) {
     form .question {
         width: 80vw;

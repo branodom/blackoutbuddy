@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/form.css">
         <title>Blackout Buddy</title>
+        <script src="javascript/water_calc.js"></script> <!-- Link to your JavaScript file -->
+
     </head>
     <body>
         <header>
@@ -23,14 +25,14 @@
         <main>
             <h2>Water Calculator</h2>
             <!--Form goes here-->
-            <form action="form_action.php">
+            <form id="water-form">
                 <div class="question">
                     <label for="fname">Name:</label>
                     <input type="text" id="fname" name="fname">
                 </div>
                 <div class="question">
                     <label for="email">Email:</label>
-                    <input type="text" id="email" name="email">
+                    <input type="email" id="email" name="email">
                 </div>
                 <div class="question">
                     <label for="people">How many people are in your household?</label>
@@ -42,11 +44,14 @@
                 </div>
                 <button type="submit" class="button" id="submit">Submit</button>
             </form>
+            <!-- Results container with styling -->
+            <div id="results" style="display: none;" class="results-container">
+                <h2>Results</h2>
+                <p id="result-message"></p> <!-- Paragraph for the personalized message -->
+            </div>
         </main>
         <footer>
             <p>Copyright &copy; The Busy Dumplings</p>
         </footer>
-        <script src="javascript/water_calc.js"></script> <!-- Link to your JavaScript file -->
-
     </body>
 </html>
