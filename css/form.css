@@ -7,7 +7,7 @@ form label {
 form input {
     display: block;
     margin: 0 auto;
-    width: 300px;
+    width: 100%;
     height: 40px;
     color: whitesmoke;
     background-color: #201F21;
@@ -43,4 +43,12 @@ form .button {
 }
 form .button:hover {
     background-color: #57389b;
+}
+@media screen and (max-width: 745px) {
+    form .question {
+        width: 80vw;
+    }
+    form label {
+        font-size: 4vw;
+    }
 }

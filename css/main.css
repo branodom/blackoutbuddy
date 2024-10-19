@@ -118,30 +118,28 @@ footer {
 }
 @media screen and (max-width: 745px) {
     h1 {
-        font-size: 40pt;
+        font-size: 10vw;
+        margin: 30px 0;
+    }
+    h2 {
+        font-size: 6vw;
     }
     nav {
         padding: 0;
     }
     nav li {
         display: block;
+        margin: 0 auto;
         padding: 5px 30px;
+        width: 50%;
     }
     nav li a {
         margin: 0 auto;
         display: block;
         max-width: 300px;
+        width: 100%;
     }
     main {
         width: 100%;
-    }
-}
-@media screen and (max-width: 475px) {
-    h1 {
-        font-size: 28pt;
-        margin: 30px 0;
-    }
-    h2 {
-        font-size: 18pt;
     }
 }
