@@ -1,0 +1,45 @@
+form label {
+    display: block;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 15pt;
+}
+form input {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 40px;
+    color: whitesmoke;
+    background-color: #201F21;
+    border: none;
+    border-radius: 20px;
+    font-family: JosefinSans;
+    font-size: 20pt;
+    text-align: center;
+}
+form .question {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #312b3b;
+    border-radius: 20px;
+    width: 450px;
+    
+}
+form .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 150px;
+    height: 50px;
+    background: #3e276f;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    font-family: Goldman;
+    font-size: 28px;
+    cursor: pointer;
+}
+form .button:hover {
+    background-color: #57389b;
+}
