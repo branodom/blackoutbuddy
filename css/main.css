@@ -20,18 +20,6 @@ body {
     background-color: #201F21;
     color: whitesmoke;
     font-family: JosefinSans;
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
 }
 header {
     text-align: center;
@@ -81,6 +69,22 @@ nav li a {
 nav li a:hover {
     background-color: #57389b;
 }
+main {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 footer {
     margin: 0 auto;
+    font-size: small;
+    font-weight: 300;
 }
