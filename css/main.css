@@ -47,7 +47,7 @@ form label {
     display: block;
     padding-bottom: 15px;
     text-align: center;
-    font-size: 18pt;
+    font-size: 15pt;
 }
 form input {
     display: block;
@@ -59,7 +59,7 @@ form input {
     border: none;
     border-radius: 20px;
     font-family: JosefinSans;
-    font-size: larger;
+    font-size: 20pt;
     text-align: center;
 }
 form .question {
@@ -82,7 +82,7 @@ form .button {
     border: none;
     border-radius: 20px;
     font-family: Goldman;
-    font-size: 25px;
+    font-size: 28px;
     cursor: pointer;
 }
 form .button:hover {
