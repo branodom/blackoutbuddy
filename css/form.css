@@ -25,7 +25,7 @@ form .question {
     max-width: 450px;
     width: 100%;
 }
-form .button {
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,17 +41,14 @@ form .button {
     font-weight: bold;
     cursor: pointer;
 }
-form .button:hover {
+.button:hover {
     background-color: #57389b;
 }
-/*the css for the results page*/
-.results-container {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px; 
-    margin-top: 20px;
-    background: #3e276f;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+#results .button {
+    font-size: 12pt;
+}
+#result-message {
+    margin: 0 10px 23px 10px;
 }
 
 @media screen and (max-width: 745px) {
