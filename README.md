@@ -2,7 +2,7 @@
 *by: Bran Odom, Donna Soto, Valery Rodriguez, Edris Vega*
 
 ## Mission
-Blackout Buddy is a mobile-friendly website that aims to prepare users against hurricane-related disasters. With a goal of protection and risk mitigation, we strive to include all the necessary tools and tips for staying prepared in the wake of disaster.
+Blackout Buddy is a mobile-friendly website that aims to prepare users for hurricane-related disasters. With a goal of protection and risk mitigation, we strive to include all the necessary tools and tips for staying prepared in the wake of disaster. Blackout Buddy will serve as an all-in-one information hub, allowing the user to access many helpful resources to stay prepared.
 
 ## Problem
 One of the main problems during an emergency is a lack of knowledge and preparedness. Blackout Buddy was developed to solve this problem and provide the tools and knowledge required to prepare for disaster.
